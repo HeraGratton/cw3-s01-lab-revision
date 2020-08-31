@@ -36,6 +36,12 @@ body {
     margin: 0;
 }
 
+.nav-principale {
+    position: absolute;
+    right: 0;
+    margin-right: 169px;
+}
+
 .nav-principale li {
     display: inline;
     margin: 0 10px 0 10px;
@@ -61,6 +67,7 @@ a:hover {
 h1 {
     font-size: 96px;
     line-height: 125px;
+    margin-top: 50px;
 }
 /*bruh*/
 
@@ -78,10 +85,14 @@ h2 {
     border-radius: 5px;
     width: 95px;
     height: 37px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
 }
 
 .bouton:hover {
     background: #E64A19;
+    text-decoration: none;
 }
 
 /*-------------------- COMPONENTS ----------------------*/
@@ -119,6 +130,11 @@ h2 {
     padding: 88px 0;
 }
 
+.content {
+    height: 324px;
+    margin: 20px;
+}
+
 .content span {
     color: #E64A19;
 }
@@ -153,6 +169,11 @@ h2 {
 .carte header {
     padding: 68px 0;
     text-align: center;
+}
+
+.carte footer {
+    display: flex;
+    justify-content: space-between;
 }
 
 .carte:nth-child(1) header {
